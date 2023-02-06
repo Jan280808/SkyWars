@@ -1,0 +1,15 @@
+name: SkyWars
+version: '${project.version}'
+main: org.example.skywars.SkyWars
+api-version: 1.19
+authors: [ Jan ]
+commands:
+  setLocation:
+    description: set locations for spawns
+    permission: skywars.admin
+  setLootChest:
+    description: set location for lootChests
+    permission: skywars.admin
+  start:
+    description: start the game
+    permission: skywars.host

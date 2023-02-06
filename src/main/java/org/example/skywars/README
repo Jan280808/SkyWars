@@ -1,0 +1,42 @@
+//edits
+scheduler particle add chest
+ - red == open
+ - green == item
+
+BackEnd
+- spectator teleport item
+- new gamble state
+
+FrontEnd
+- show life from killer
+- book for tutorial
+
+
+
+
+
+
+
+BigUpdate
+- Kit-System
+    - select kits
+    - add more kits
+    - update kit object
+
+- LootSystem
+    - update lootPool
+    - add lootPool
+    - update lootChest object
+
+- PlayerObject
+    - player kills
+
+- Settings
+    - set custom events
+        - no jump
+        - no sneak
+    - manage swordCoolDown
+    - manage kits
+    - manage snowball, angel, eggs
+
+
